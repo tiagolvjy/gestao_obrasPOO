@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="710.0" prefWidth="1260.0" style="-fx-background-color: #252c32;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.todoproject.controllers.UpdateTaskController">
+   <children>
+      <Text fill="WHITE" layoutX="81.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Editar Obra">
+         <font>
+            <Font name="Segoe UI Bold" size="18.0" />
+         </font></Text>
+      <Text fill="WHITE" layoutX="61.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome:">
+         <font>
+            <Font name="Segoe UI Bold" size="12.0" />
+         </font></Text>
+      <Text fill="WHITE" layoutX="61.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Detalhes:" wrappingWidth="68.33251953125">
+         <font>
+            <Font name="Segoe UI Bold" size="12.0" />
+         </font></Text>
+      <TextField fx:id="txtFieldTitle" layoutX="61.0" layoutY="168.0" prefHeight="40.0" prefWidth="149.0" style="-fx-background-color: #0f1923; -fx-text-fill: #ffffff;" />
+      <TextField fx:id="txtFieldDescription" layoutX="61.0" layoutY="229.0" prefHeight="40.0" prefWidth="149.0" style="-fx-background-color: #0f1923; -fx-text-fill: #ffffff;" />
+      <Button layoutX="61.0" layoutY="285.0" mnemonicParsing="false" onAction="#onSaveButton" style="-fx-background-color: #6e7470;" text="Salvar" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Bold" size="12.0" />
+         </font></Button>
+      <Pane layoutX="273.0" prefHeight="710.0" prefWidth="987.0" style="-fx-background-color: #0f1923;" />
+   </children>
+</AnchorPane>
